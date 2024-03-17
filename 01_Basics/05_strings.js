@@ -32,3 +32,4 @@ console.log(url.includes("hitesh"));
 console.log(url.includes("Hitesh"));
 
 console.log(gameName.split("-"));
+console.log(gameName.split(""))
