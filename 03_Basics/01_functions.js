@@ -38,3 +38,33 @@ function userMessage(usrename="Sam"){ // if nothing is passed, default name is S
     return `${usrename} just logged in!`
 }
 console.log(userMessage("Happy"));
+
+
+function calculateCartPrice(val1, val2, ...num1){
+    let sum = 0;
+    for (let i = 0; i<num1.length; i++){
+        sum+=num1[i];
+    }
+    return sum;
+}
+console.log(calculateCartPrice(200));
+console.log(calculateCartPrice(200, 400, 500, 2000));
+
+const user = {
+    userName : "Hitesh",
+    price : 199
+}
+function handleObject(anyObject){
+    console.log(`Userame is ${anyObject.userName} and price is ${anyObject.price}`);
+}
+// handleObject(user);
+handleObject({
+    userName: "Sam",
+    price: 200
+})
+
+const myNewArr = [200, 400, 100, 600]
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+console.log(returnSecondValue(myNewArr));
