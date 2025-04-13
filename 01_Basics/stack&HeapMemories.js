@@ -14,3 +14,9 @@ let userTwo = userOne;
 userTwo.email = "hitesh@gmail.com"
 console.log(userOne.email); //userOne has also changed
 console.log(userTwo.email);
+
+let one = new Number(1);
+let two = one;
+two = 3;
+console.log(one); // 1
+console.log(two); // 3

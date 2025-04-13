@@ -20,12 +20,12 @@ const user = {
 // }
 // chai();
 
-// const chai = function(){
-//     let username =  "hitesh";
-//     console.log(this);
-//     console.log(this.username); //undefined
-// }
-// chai();
+const chai = function(){
+    let username =  "hitesh";
+    console.log(this);
+    console.log(this.username); //undefined
+}
+chai();
 
 // const chai = () => {
 //     let username =  "hitesh";
@@ -36,12 +36,12 @@ const user = {
 
 // ************************** Arrow Function *****************************************
 
-//BASIC(EXPLICIT) ARROW FUNCTION
+// BASIC(EXPLICIT) ARROW FUNCTION
 // const addTwo = (num1, num2) => {
 //     return num1 + num2;
 // }
 
-//IMPLICIT RETURN 
+// IMPLICIT RETURN 
 // const addTwo = (num1, num2) =>  (num1 + num2);
 // console.log(addTwo(3,4));
 

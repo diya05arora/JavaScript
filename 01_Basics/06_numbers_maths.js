@@ -1,12 +1,13 @@
 // const score = 400;
 // console.log(score);
 
-//explicitly defining the type
-// const balance = new Number(100);
-// console.log(balance);
+// explicitly defining the type
+const balance = new Number(100);
+console.log(balance);
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(2)); //2 decimal points precision value
+console.log(balance.toString().length);
+console.log(balance.valueOf());
+console.log(balance.toFixed(2)); //2 decimal points precision value
 
 // const otherNum = 23.8966;
 // console.log(otherNum.toPrecision(4));
@@ -36,3 +37,11 @@ const min = 10;
 const max = 20;
 
 console.log(Math.floor((Math.random() * (max - min + 1))) + min ) //between min and max
+
+// deep copy is created
+// let s1 = 0;
+// let s2 = s1;
+// s2 = 9;
+// console.log(s1);
+// console.log(s2);
+

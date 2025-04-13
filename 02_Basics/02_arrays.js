@@ -16,18 +16,24 @@ let dc_heroes = ["Superman", "Flash", "Batman"]
 // const all_new_heroes2 = [...marvel_heroes];
 // console.log(all_new_heroes2);
 
-// const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
-// const real_another_array = another_array.flat(1); // Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
-// const real_another_array2 = another_array.flat(Infinity);
-// console.log(another_array);
-// console.log(real_another_array);
-// console.log(real_another_array2);
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
+const real_another_array = another_array.flat(1); // Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+const real_another_array2 = another_array.flat(Infinity);
+console.log(another_array);
+console.log(real_another_array);
+console.log(real_another_array2);
+console.log(typeof(real_another_array))
 
 console.log(Array.isArray("hitesh"));
 console.log(Array.from("hitesh@123"));
 console.log(Array.from({name: "hitesh"})); // returns an empty array    
+console.log(Object.keys({name: "hitesh"})); // craeting array from keys  
+console.log(Object.values({name: "hitesh"})); // craeting array from values  
+console.log(typeof(Object.values({name: "hitesh"}))); // craeting array from values  
 
 let score1 = 100;
 let score2 = 200;
 let score3 = 300;
 console.log(Array.of(score1, score2, score3, "Hitesh")); // Returns a new array from a set of elements.
+
+console.log(Object.getPrototypeOf(marvel_heroes));

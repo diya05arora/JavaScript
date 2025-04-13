@@ -15,7 +15,7 @@
 
 // let valueInNumber = Number(score);
 // console.log(valueInNumber);
-// console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);     
 
 
 // let score = null
@@ -88,7 +88,7 @@
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
-// console.log(2/2);
+// console.log(2/2.5);
 // console.log(2**3);
 // console.log(2%3);
 
@@ -102,12 +102,14 @@
 // console.log("1" + "2");
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
+// let variable = 1+"2";
+// console.log(typeof variable);
 
 // console.log(3+4*5%3); //not a correct way to aply operators
 // always use parenthesis
 
 // console.log(+true);
-//console.log(true+); //error
+// console.log(true+); //error
 // let ans = +"";
 // console.log(ans);
 // console.log(typeof ans);
@@ -121,8 +123,8 @@
 // console.log(gameCounter);
 // ++gameCounter; //prefix
 // console.log(gameCounter);
-let num = 3;
-console.log(num++);
-console.log(++num);
+// let num = 3;
+// console.log(num++);
+// console.log(++num);
 
 

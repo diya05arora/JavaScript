@@ -4,6 +4,7 @@ console.log(myDate.toString());
 console.log(myDate.toDateString());
 console.log(myDate.toISOString());
 console.log(myDate.toLocaleString());
+console.log(myDate.toLocaleDateString());
 console.log(typeof myDate);
 
 // let myCreatedDate = new Date(2023, 0, 23)
@@ -23,8 +24,7 @@ console.log(newDate.getMonth());
 console.log(newDate.getDay());
 console.log(newDate.getMilliseconds());
 console.log(newDate.toLocaleString('en-IN', {
-    timeZone: "UTC",
-    // weekday: "long",
+    timeZone: "IST",
     dateStyle: "full"
 }));
 //happy to complete 13th lecture!

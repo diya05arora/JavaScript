@@ -1,6 +1,6 @@
 //Arrays
-//collection of multiple items of different or same datatyoes in single variable
-//js arrays are resizable
+// collection of multiple items of different or same datatyPes in single variable
+// js arrays are resizable
 // JavaScript array-copy operations create shallow copies. (All standard built-in copy operations with any JavaScript objects create shallow copies, rather than deep copies).
 
 const myArr = [0,1,2,3,4,5];
@@ -17,8 +17,8 @@ const myArr2 = new Array(1,2,4,7);
 // myArr.unshift(9); //inserts element at start
 // console.log(myArr);
 
-// console.log(myArr.shift()); //removes the first element from the array
-// console.log(myArr);
+console.log(myArr.shift()); //removes the first element from the array
+console.log(myArr);
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(9));
@@ -30,7 +30,7 @@ const myArr2 = new Array(1,2,4,7);
 
 // slice, splice
 console.log("A", myArr);
-const myNewArr1 = myArr.slice(1,3);
+const myNewArr1 = myArr.slice();
 console.log(myNewArr1);
 console.log("B", myArr);
 

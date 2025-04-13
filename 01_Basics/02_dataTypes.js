@@ -8,19 +8,20 @@ let name = "Diya"
 let age = 18
 let isLoggedIn = false
 let state = null
+let num; // undefined
 
 // DATA TYPES
-// number
+// number (range 2^53)
 // bigInt
 // string => ""
 // boolean => true/false
 // undefined => 
-// symbol => unique
+// symbol => to find uniqueness
 
 // OBJECT
 // null => standalone value
-
-console.log(typeof "Hitesh")
-console.log(typeof age)
+    
+console.log(typeof "Hitesh") // string
+console.log(typeof age) // number
 console.log(typeof null) //object
 console.log(typeof undefined) //undefined
